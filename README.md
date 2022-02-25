@@ -28,7 +28,10 @@ You can find a full list of what YOLO trained on the COCO dataset can detect <a 
 
 - `pip install numpy`
 - `pip install opencv-python`
--  pip install pandas
+- `pip install pandas
+
+## To Run the project
+
 
 
 
