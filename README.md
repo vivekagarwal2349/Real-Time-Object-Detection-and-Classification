@@ -7,7 +7,7 @@ Object detection is a computer vision task that involves both localizing one or 
 The approach involves a single deep convolutional neural network (originally a version of GoogLeNet, later updated and called DarkNet based on VGG) that splits the input into a grid of cells and each cell directly predicts a bounding box and object classification. The result is a large number of candidate bounding boxes that are consolidated into a final prediction by a post-processing step.
 
 
-I’ll be using YOLOv3 in this project, in particular, YOLO trained on the COCO dataset.
+We’ll be using YOLOv3 in this project, in particular, YOLO trained on the COCO dataset.
 
 The COCO dataset consists of 80 labels, including, but not limited to:
 
@@ -28,9 +28,11 @@ You can find a full list of what YOLO trained on the COCO dataset can detect <a 
 
 - `pip install numpy`
 - `pip install opencv-python`
-- `pip install pandas
 
-## To Run the project
+##  YOLO object detection in video streams
+Here we make frame by frame prediction on <a href="https://github.com/pjreddie/darknet/blob/master/data/coco.names" target="_blank"><b>using this link.</b></a>
+
+
 
 
 
